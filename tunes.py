@@ -1,11 +1,26 @@
 from datetime import datetime
-import random
+from random import sample
+import json
 
 
 tunetypes = set(["Reel", "Jig", "Hornpipe", "Polka", "Barndance"])
 source_codes = set(["TC", "AL", "RB"])
 musical_keys = set(["Dmaj", "Gmaj"])
 musical_modes = set([])
+
+
+#######################################################################
+# Setup
+#######################################################################
+
+
+with open('reels.json') as file:
+    reels = json.load(file)
+
+
+#######################################################################
+# Objects
+#######################################################################
 
 
 class Tune(object):
@@ -31,11 +46,17 @@ class Tune(object):
         self.next_in_set = list() if not next_in_set else [next_in_set]
         self.source_code = source_code if source_code in source_codes else None
 
-    def get_random_set(self, preceeding=None):
+
+class Set(object):
+
+    @staticmethod
+    def set_by_reference(cls, start_tune, preceeding=None, target_length=3):
+        """Return a set generator randomly chosen from by next_in_set reference"""
         if not preceeding:
-            pass_as_preceeding = [self.name]
-
-
-
-
-class
+            preceeding = [start_tune.name]
+        for i in range(target_length):
+            yield preceeding
+            try:
+                preceeding = sample(preceeding.next_in_set, 1)
+            except ValueError:
+                raise StopIteration
