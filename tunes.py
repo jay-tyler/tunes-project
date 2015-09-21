@@ -50,7 +50,7 @@ class Tune(object):
 class Set(object):
 
     @staticmethod
-    def set_by_reference(cls, start_tune, preceeding=None, target_length=3):
+    def gen_set(cls, start_tune, preceeding=None, target_length=3):
         """Return a set generator randomly chosen from by next_in_set reference"""
         if not preceeding:
             preceeding = [start_tune.name]
