@@ -2,14 +2,14 @@
     "dairy_maid": {
         "name": "Dairy Maid",
         "tunetype": "Reel",
-        "next_in_set": ["steampacket"],
+        "next_in_set": ["Steampacket"],
         "source_code": "TC"
     },
 
     "banks_of_ilen": {
         "name": "Banks of Ilen",
         "tunetype": "Reel",
-        "next_in_set": ["scartaglen"],
+        "next_in_set": ["Scartaglen"],
         "source_code": "TC"
     },
     
@@ -44,7 +44,7 @@
     "corney_is_coming": {
         "name": "Corney is Coming",
         "tunetype": "Reel",
-        "next_in_set": ["lisdoonvarna_reel"],
+        "next_in_set": ["Lisdoonvarnam Reel"],
         "source_code": "TC"
     },
 
@@ -58,7 +58,7 @@
     "old_copperplate": {
         "name": "Old Copperplate",
         "tunetype": "Reel",
-        "next_in_set": ["new_copperplate"],
+        "next_in_set": ["New Copperplate"],
         "source_code": "TC"
     },
 
@@ -79,7 +79,7 @@
     "farewell_to_connacht": {
         "name": "Farewell to Connacht",
         "tunetype": "Reel",
-        "next_in_set": ["old_toss_the_feathers"],
+        "next_in_set": ["Old Toss the Feathers"],
         "source_code": "TC"
     },
 
@@ -142,14 +142,14 @@
     "jug_of_punch": {
         "name": "Jug of Punch",
         "tunetype": "Reel",
-        "next_in_set": ["sergeant_earlys"],
+        "next_in_set": ["Sergeant Early's Dream"],
         "source_code": "TC"
     },
 
     "sergeant_earlys": {
         "name": "Sergeant Early's Dream",
         "tunetype": "Reel",
-        "next_in_set": ["broken_pledge"],
+        "next_in_set": ["Broken Pledge"],
         "source_code": "TC"
     },
 
@@ -177,7 +177,7 @@
     "mcgreevys": {
         "name": "McGreevy's",
         "tunetype": "Reel",
-        "next_in_set": ["sporting_nell"],
+        "next_in_set": ["Sporting Nell"],
         "source_code": "TC"
     },
 
@@ -191,21 +191,21 @@
     "mullingar_races": {
         "name": "Mullingar Races",
         "tunetype": "Reel",
-        "next_in_set": ["green_fields_of_rossbeigh"],
+        "next_in_set": ["Greenfields of Rossbeigh"],
         "source_code": "TC"
     },
 
     "oconnells_trip": {
         "name": "O'Connell's Trip to Parliament",
         "tunetype": "Reel",
-        "next_in_set": ["castle_kelly"],
+        "next_in_set": ["Castle Kelly"],
         "source_code": "TC"
     },
     
     "old_bush": {
         "name": "Old Bush",
         "tunetype": "Reel",
-        "next_in_set": ["sporting_nell"],
+        "next_in_set": ["Sporting Nell"],
         "source_code": "TC"
     },
 
