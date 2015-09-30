@@ -7,11 +7,6 @@ musical_keys = set(["Dmaj", "Gmaj", "Emin"])
 musical_modes = set([])
 
 
-#######################################################################
-# Objects
-#######################################################################
-
-
 class Tune(object):
     def __init__(self, name, key=None, tunetype=None, played=None, next_in_set=None, source_code=None, heard=None, mode=None):
         """Define the Tune with all reasonable parameters

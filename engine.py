@@ -1,9 +1,6 @@
 import json
 from classes import Tune, Set
 
-#######################################################################
-# Setup
-#######################################################################
 
 with open('reels.json') as file:
     reels_serialized = json.load(file)
