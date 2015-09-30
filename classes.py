@@ -3,7 +3,7 @@ from random import sample
 
 tunetypes = set(["Reel", "Jig", "Hornpipe", "Polka", "Barndance"])
 source_codes = set(["TC", "AL", "RB"])
-musical_keys = set(["Dmaj", "Gmaj"])
+musical_keys = set(["Dmaj", "Gmaj", "Emin"])
 musical_modes = set([])
 
 

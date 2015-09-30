@@ -1,0 +1,72 @@
+{
+    "callaghans": {
+        "name": "Callaghan's",
+        "tunetype": "Hornpipe",
+        "next_in_set": [],
+        "source_code": "TC"
+    },
+
+    "cameron_highlanders": {
+        "name": "Cameron Highlanders",
+        "tunetype": "Hornpipe",
+        "next_in_set": ["Glenbeigh"],
+        "source_code": "TC"
+    },
+
+    "glenbeigh": {
+        "name": "Glenbeigh",
+        "tunetype": "Hornpipe",
+        "next_in_set": [],
+        "source_code": "TC"
+    },
+
+    "miss_galvins": {
+        "name": "Miss Galvin's",
+        "tunetype": "Hornpipe",
+        "next_in_set": [],
+        "source_code": "TC"
+    },
+
+    "peacock_minor": {
+        "name": "Peacock (minor)",
+        "tunetype": "Hornpipe",
+        "next_in_set": ["Peacock (major)"],
+        "source_code": "TC"
+    },
+
+    "peacock_major": {
+        "name": "Peacock (major)",
+        "tunetype": "Hornpipe",
+        "next_in_set": [],
+        "source_code": "TC"
+    },
+
+    "rights_man": {
+        "name": "Rights of Man",
+        "tunetype": "Hornpipe",
+        "next_in_set": [],
+        "source_code": "TC"
+    },
+
+    "stack_barley": {
+        "name": "Stack of Barley",
+        "tunetype": "Hornpipe",
+        "next_in_set": [],
+        "source_code": "TC"
+    },
+
+    "tuamgraney": {
+        "name": "Tuamgraney Castle",
+        "tunetype": "Hornpipe",
+        "next_in_set": [],
+        "source_code": "TC"
+    }
+}
+
+
+
+
+
+
+
+

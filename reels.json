@@ -149,7 +149,7 @@
     "sergeant_earlys": {
         "name": "Sergeant Early's Dream",
         "tunetype": "Reel",
-        "next_in_set": ["Broken Pledge"],
+        "next_in_set": ["Broken Pledge", "Sporting Nell"],
         "source_code": "TC"
     },
 
@@ -233,7 +233,7 @@
     "rakish_paddy": {
         "name": "Rakish Paddy",
         "tunetype": "Reel",
-        "next_in_set": [],
+        "next_in_set": ["Fred Finn's"],
         "source_code": "TC"
     },
 
@@ -281,6 +281,27 @@
 
     "sporting_nell": {
         "name": "Sporting Nell",
+        "tunetype": "Reel",
+        "next_in_set": [],
+        "source_code": "TC"
+    },
+
+    "big_pat": {
+        "name": "Big Pat's",
+        "tunetype": "Reel",
+        "next_in_set": [],
+        "source_code": "TC"
+    },
+
+    "abbey": {
+        "name": "Abbey Reel",
+        "tunetype": "Reel",
+        "next_in_set": [],
+        "source_code": "TC"
+    },
+
+    "gravel walks": {
+        "name": "Gravel Walks",
         "tunetype": "Reel",
         "next_in_set": [],
         "source_code": "TC"
