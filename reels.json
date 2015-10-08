@@ -335,6 +335,33 @@
         "source_code": "TC"
     },
 
+    "johnny cronins": {
+        "name": "Johnny Cronin's",
+        "tunetype": "Reel",
+        "next_in_set": [],
+        "source_code": "TC"
+    },
+
+    "old blackthorn stick": {
+        "name": "Old Blackthorn Stick",
+        "tunetype": "Reel",
+        "next_in_set": ["Come West Along the Road"],
+        "source_code": "TC"
+    },
+
+    "come west along the road": {
+        "name": "Come West Along the Road",
+        "tunetype": "Reel",
+        "next_in_set": [],
+        "source_code": "TC"
+    },
+
+    "lady on the island": {
+        "name": "Lady on the Island",
+        "tunetype": "Reel",
+        "next_in_set": ["Morning Star"],
+        "source_code": "TC"
+    },
 
 }
 
