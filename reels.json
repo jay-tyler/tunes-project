@@ -48,6 +48,13 @@
         "source_code": "TC"
     },
 
+    "colliers": {
+        "name": "Collier's",
+        "tunetype": "Reel",
+        "next_in_set": ["Blockers"],
+        "source_code": "TC"
+    },
+
     "new_copperplate": {
         "name": "New Copperplate",
         "tunetype": "Reel",
@@ -66,6 +73,13 @@
         "name": "Steampacket",
         "tunetype": "Reel",
         "next_in_set": [],
+        "source_code": "TC"
+    },
+
+    "dairy_maid": {
+        "name": "Dairy Maid",
+        "tunetype": "Reel",
+        "next_in_set": ["Steampacket"],
         "source_code": "TC"
     },
 
@@ -101,6 +115,13 @@
         "name": "Fred Finn's",
         "tunetype": "Reel",
         "next_in_set": ["Galway Rambler"],
+        "source_code": "TC"
+    },
+
+    "galway_rambler": {
+        "name": "Galway Rambler",
+        "tunetype": "Reel",
+        "next_in_set": ["Duke of Leinster's Wife"],
         "source_code": "TC"
     },
     
@@ -305,7 +326,16 @@
         "tunetype": "Reel",
         "next_in_set": [],
         "source_code": "TC"
-    }
+    },
+
+    "humours lissadell": {
+        "name": "Humours of Lissadell",
+        "tunetype": "Reel",
+        "next_in_set": ["Killarney Boys of Pleasure"],
+        "source_code": "TC"
+    },
+
+
 }
 
 
