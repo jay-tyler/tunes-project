@@ -2,6 +2,10 @@
 
 This is a project exploring relationships between traditional Irish tunes using Python.
 
+## User Stories
+
+User stories divided into 'current sprint' and 'parking lot' categories can be found [here](https://docs.google.com/document/d/1NmkJvdyGIg_uRA1CXCmsfzD2kpdQg0QoPHq0OWZlYic/edit?usp=sharing).
+
 ## Phase 1
 
 In this current phase, I am trying to explore how to store information about tunes in a framework-agnostic sort of way and support a collection of features that I would find useful as a tunes player.
