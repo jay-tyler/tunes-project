@@ -1,4 +1,6 @@
+import sys
 from random import sample
+from collections import namedtuple, deque
 
 
 tunetypes = set(["Reel", "Jig", "Hornpipe", "Polka", "Barndance"])
@@ -11,9 +13,9 @@ class Tune(object):
     def __init__(self, name, key=None, tunetype=None, played=None, next_in_set=None, source_code=None, heard=None, mode=None):
         """Define the Tune with all reasonable parameters
 
-        str:            name --> human readable name
-        list[datetime]: played --> list of all times where tune has been played
-        list[datetime]: heard --> list of all times where tune has been heard
+        str:            name --> human readable name; will be used as a hash
+        list[(datetime, object)]: played --> list of all times where tune has been played; object is reference to Tune or Set when played
+        list[(datetime, object)]: heard --> list of all times where tune has been heard; object is reference to Tune or Set when heard
         str:            key --> name of key which tune is played in
         str:            mode --> name of mode; e.g. Dorian, Myxolydian
         str:            tunetype --> type of tune, i.e. jig or reel etc
@@ -33,9 +35,13 @@ class Tune(object):
 
 class Set(object):
 
+
     @staticmethod
-    def gen_set(start_tune, catalog, target_length=3, _preceeding=None):
-        """Return a set generator randomly chosen from by next_in_set reference
+    def set_gen(start_tune, catalog, target_length=3, _preceeding=None):
+        """Return a generator containing Tunes, regardless of whether they belong to a current Set object.
+
+        Tunes are randomly chosen by next_in_set reference.
+        Number of tunes will be equal to or less than target_length.
 
         hash: start_tune --> hash to Tune object that begins the set
         dict: catalog --> a dict of Tune objects to select from
@@ -54,3 +60,42 @@ class Set(object):
                 _preceeding = catalog[next_hash]
             except ValueError:
                 raise StopIteration
+
+    @staticmethod
+    def gen_all_sets(start_tune, catalog):
+        """Return a list of all sets from start_tune; inner lists consist of Tune hashes corresponding to a set.
+
+        This method returns all potential sets regardless of whether they exist as Set objects currently.
+
+        Currently implemented as using 'next_in_set' node edges
+
+        Implemented after non-recursive approach psuedocode from
+        https://en.wikipedia.org/wiki/Breadth-first_search
+        """
+        #  Set up records for non-recursive breadth first search
+        Node = nametuple('Node', ['distance', 'parent', 'self'])
+        records = {tune.name: Node(distance=sys.maxint, parent=None, self=tune) for tune in catalog}
+
+        #  grab start_tune record and initialize to queue
+        start_record = records[start_tune]
+        start_record.distance = 0
+        to_travel = deque([records[start_tune]])
+
+        #  ordered structure to place processed tune references
+        travelled = []
+
+        while to_travel:
+            current = to_travel.popleft()
+            for tune in current.self.next_in_set:
+                tune = records[tune]
+                if tune.distance == sys.maxint:
+                    tune.distance = current.distance + 1
+                    tune.parent = current
+                    to_travel.append(tune)
+            travelled.append(current)
+
+        # TODO: splay out tunes into lists in lists
+        to_return = []
+        for tune in travelled:
+            if tune.self.next_in_set:
+                pass
