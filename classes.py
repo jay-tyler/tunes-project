@@ -79,11 +79,12 @@ class Set(object):
         #  grab start_tune record and initialize to queue
         start_record = records[start_tune]
         start_record.distance = 0
-        to_travel = deque([records[start_tune]])
+        to_travel = deque(start_record)
 
         #  ordered structure to place processed tune references
         travelled = []
 
+        # TODO: add check for cycles; i.e. if a reference points to the start_record, terminate it
         while to_travel:
             current = to_travel.popleft()
             for tune in current.self.next_in_set:
@@ -97,5 +98,5 @@ class Set(object):
         # TODO: splay out tunes into lists in lists
         to_return = []
         for tune in travelled:
-            if tune.self.next_in_set:
-                pass
+            if not tune.self.next_in_set:
+                # In this case, tune is at the end of a set
