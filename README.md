@@ -12,7 +12,7 @@ User stories divided into 'current sprint' and 'parking lot' categories can be f
 Sprint A - Oct 20 2015 start. Target end date Oct 23 2015.
 
 ### Completed
-<<Completed sprints with (start date, end date) go here. See [here](https://docs.google.com/document/d/1NmkJvdyGIg_uRA1CXCmsfzD2kpdQg0QoPHq0OWZlYic/edit?usp=sharing) for sprint contents.>>
+{{Completed sprints with (start date, end date) go here. See [here](https://docs.google.com/document/d/1NmkJvdyGIg_uRA1CXCmsfzD2kpdQg0QoPHq0OWZlYic/edit?usp=sharing) for sprint contents.}}
 
 ## General Implementation Ideas
 ### Phase 1
