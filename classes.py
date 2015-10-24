@@ -63,7 +63,7 @@ class Set(object):
 
     @staticmethod
     def gen_all_sets(start_tune, catalog):
-        """Return a list of all sets from start_tune; inner lists consist of Tune hashes corresponding to a set.
+        """Return a list of all sets from start_tune hash; inner lists consist of Tune hashes corresponding to a set.
 
         This method returns all potential sets regardless of whether they exist as Set objects currently.
 
@@ -100,3 +100,4 @@ class Set(object):
         for tune in travelled:
             if not tune.self.next_in_set:
                 # In this case, tune is at the end of a set
+                pass
