@@ -9,6 +9,14 @@ musical_keys = set(["Dmaj", "Gmaj", "Emin"])
 musical_modes = set([])
 
 
+class Node(object):
+    """Object for tree searching"""
+    def __init__(self, distance=sys.maxint, parent=None, reference=None):
+        self.distance = distance
+        self.parent = parent
+        self.reference = reference
+
+
 class Tune(object):
     def __init__(self, name, key=None, tunetype=None, played=None, next_in_set=None, source_code=None, heard=None, mode=None):
         """Define the Tune with all reasonable parameters
@@ -73,13 +81,12 @@ class Set(object):
         https://en.wikipedia.org/wiki/Breadth-first_search
         """
         #  Set up records for non-recursive breadth first search
-        Node = nametuple('Node', ['distance', 'parent', 'self'])
-        records = {tune.name: Node(distance=sys.maxint, parent=None, self=tune) for tune in catalog}
+        records = {tune.name: Node(distance=sys.maxint, parent=None, reference=tune)
+            for hast, tune in catalog.iteritems()}
 
         #  grab start_tune record and initialize to queue
-        start_record = records[start_tune]
-        start_record.distance = 0
-        to_travel = deque(start_record)
+        records[start_tune] = Node(distance=0, parent=None, reference=catalog[start_tune])
+        to_travel = deque([records[start_tune]])
 
         #  ordered structure to place processed tune references
         travelled = []
@@ -87,7 +94,7 @@ class Set(object):
         # TODO: add check for cycles; i.e. if a reference points to the start_record, terminate it
         while to_travel:
             current = to_travel.popleft()
-            for tune in current.self.next_in_set:
+            for tune in current.reference.next_in_set:
                 tune = records[tune]
                 if tune.distance == sys.maxint:
                     tune.distance = current.distance + 1
@@ -95,9 +102,10 @@ class Set(object):
                     to_travel.append(tune)
             travelled.append(current)
 
-        # TODO: splay out tunes into lists in lists
-        to_return = []
-        for tune in travelled:
-            if not tune.self.next_in_set:
-                # In this case, tune is at the end of a set
-                pass
+        return travelled
+        # # TODO: splay out tunes into lists in lists
+        # to_return = []
+        # for tune in travelled:
+        #     if not tune.self.next_in_set:
+        #         # In this case, tune is at the end of a set
+        #         pass
