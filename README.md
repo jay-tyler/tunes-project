@@ -27,6 +27,8 @@ What should we implement?
 * --> bonus to above: ability to loop over a tune, at any tempo, using some quick buttons
 mail
 * Suggest sets based on key transitions and tune type, given that no current union exists between the tunes
+* Suggest sets and tunes to practice based on last date played and "forgetfulness curve"
+* Provide an interface to record practice notes for tunes
 
 ### Phase 2
 
