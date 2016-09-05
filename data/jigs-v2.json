@@ -1,0 +1,260 @@
+{
+    "apples winter": {
+        "name": "Apples in Winter",
+        "tunetype": "Jig",
+        "next_in_set": [],
+        "source_code": "TC"
+    },
+
+    "battering ram": {
+        "name": "Battering Ram",
+        "tunetype": "Jig",
+        "next_in_set": [],
+        "source_code": "TC"
+    },
+
+    "black rogue": {
+        "name": "Black Rogue",
+        "tunetype": "Jig",
+        "next_in_set": [],
+        "source_code": "TC"
+    },
+
+    "blackthorn stick": {
+        "name": "Blackthorn Stick",
+        "tunetype": "Jig",
+        "next_in_set": [],
+        "source_code": "TC"
+    },
+
+    "brides favourite": {
+        "name": "Bride's Favourite",
+        "tunetype": "Jig",
+        "next_in_set": [],
+        "source_code": "TC"
+    },
+
+    "butchers march": {
+        "name": "Butcher's March",
+        "tunetype": "Jig",
+        "next_in_set": [],
+        "source_code": "TC"
+    },
+
+    "Cailleach an Airgead": {
+        "name": "Cailleach an Airgead",
+        "tunetype": "Jig",
+        "next_in_set": [],
+        "source_code": "TC"
+    },
+
+    "carraroe": {
+        "name": "Carraroe",
+        "tunetype": "Jig",
+        "next_in_set": [],
+        "source_code": "TC"
+    },
+
+    "Castle": {
+        "name": "Castle",
+        "tunetype": "Jig",
+        "next_in_set": [],
+        "source_code": "TC"
+    },
+
+    "cook kitchen": {
+        "name": "Cook in the Kitchen",
+        "tunetype": "Jig",
+        "next_in_set": [],
+        "source_code": "TC"
+    },
+
+    "wrens nest": {
+        "name": "Wren's Nest",
+        "tunetype": "Jig",
+        "next_in_set": [],
+        "source_code": "TC"
+    },
+
+    "down back lane": {
+        "name": "Down the Back Lane",
+        "tunetype": "Jig",
+        "next_in_set": [],
+        "source_code": "TC"
+    },
+
+    "frahers": {
+        "name": "Fraher's",
+        "tunetype": "Jig",
+        "next_in_set": [],
+        "source_code": "TC"
+    },
+
+    "goat on the green": {
+        "name": "Goat on the Green",
+        "tunetype": "Jig",
+        "next_in_set": [],
+        "source_code": "TC"
+    },
+
+    "grainnes": {
+        "name": "Grainne's",
+        "tunetype": "Jig",
+        "next_in_set": [],
+        "source_code": "TC"
+    },
+
+    "humours ballyloughlin": {
+        "name": "Humours of Ballyloughlin",
+        "tunetype": "Jig",
+        "next_in_set": [],
+        "source_code": "TC"
+    },
+
+    "humours kilclogher": {
+        "name": "Humours of Kilclogher",
+        "tunetype": "Jig",
+        "next_in_set": [],
+        "source_code": "TC"
+    },
+
+    "humours trim": {
+        "name": "Humours of Trim",
+        "tunetype": "Jig",
+        "next_in_set": [],
+        "source_code": "TC"
+    },
+
+    "jimmy ward": {
+        "name": "Jimmy Ward's",
+        "tunetype": "Jig",
+        "next_in_set": [],
+        "source_code": "TC"
+    },
+
+    "Legacy": {
+        "name": "Legacy",
+        "tunetype": "Jig",
+        "next_in_set": [],
+        "source_code": "TC"
+    },
+
+    "Luachrachan": {
+        "name": "Luachrachan",
+        "tunetype": "Jig",
+        "next_in_set": [],
+        "source_code": "TC"
+    },
+
+    "morrisons": {
+        "name": "Morrison's",
+        "tunetype": "Jig",
+        "next_in_set": [],
+        "source_code": "TC"
+    },
+
+    "mouse cupboard": {
+        "name": "Mouse in the Cupboard",
+        "tunetype": "Jig",
+        "next_in_set": [],
+        "source_code": "TC"
+    },
+
+    "nightengale": {
+        "name": "Nightengale",
+        "tunetype": "Jig",
+        "next_in_set": [],
+        "source_code": "TC"
+    },
+
+    "old joes": {
+        "name": "Old Joe's",
+        "tunetype": "Jig",
+        "next_in_set": [],
+        "source_code": "TC"
+    },
+
+    "out ocean": {
+        "name": "Out on the Ocean",
+        "tunetype": "Jig",
+        "next_in_set": [],
+        "source_code": "TC"
+    },
+
+    "paddy faheys": {
+        "name": "Paddy Fahey's",
+        "tunetype": "Jig",
+        "next_in_set": [],
+        "source_code": "TC"
+    },
+
+    "paddy taylors": {
+        "name": "Paddy Taylor's",
+        "tunetype": "Jig",
+        "next_in_set": [],
+        "source_code": "TC"
+    },
+
+    "queen fair": {
+        "name": "Queen of the Fair",
+        "tunetype": "Jig",
+        "next_in_set": [],
+        "source_code": "TC"
+    },
+
+    "rambling pitchfork": {
+        "name": "Rambling Pitchfork",
+        "tunetype": "Jig",
+        "next_in_set": [],
+        "source_code": "TC"
+    },
+
+    "lonesome": {
+        "name": "Lonesome",
+        "tunetype": "Jig",
+        "next_in_set": [],
+        "source_code": "TC"
+    },
+
+    "rose in heather": {
+        "name": "Rose in the Heather",
+        "tunetype": "Jig",
+        "next_in_set": [],
+        "source_code": "TC"
+    },
+
+    "scatter mud": {
+        "name": "Scatter the Mud",
+        "tunetype": "Jig",
+        "next_in_set": [],
+        "source_code": "TC"
+    },
+
+    "scattery island": {
+        "name": "Scattery Island",
+        "tunetype": "Jig",
+        "next_in_set": [],
+        "source_code": "TC"
+    },
+
+    "shores lough gowna": {
+        "name": "Shores of Lough Gowna",
+        "tunetype": "Jig",
+        "next_in_set": [],
+        "source_code": "TC"
+    },
+
+    "sporting pitchfork": {
+        "name": "Sporting Pitchfork",
+        "tunetype": "Jig",
+        "next_in_set": [],
+        "source_code": "TC"
+    },
+
+    "whelans": {
+        "name": "Whelan's",
+        "tunetype": "Jig",
+        "next_in_set": [],
+        "source_code": "TC"
+    }
+}

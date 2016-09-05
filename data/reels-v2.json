@@ -1,0 +1,373 @@
+{
+    "dairy_maid": {
+        "name": "Dairy Maid",
+        "tunetype": "Reel",
+        "next_in_set": ["Steampacket"],
+        "source_code": "TC"
+    },
+
+    "banks_of_ilen": {
+        "name": "Banks of Ilen",
+        "tunetype": "Reel",
+        "next_in_set": ["Scartaglen"],
+        "source_code": "TC"
+    },
+    
+    "blockers": {
+        "name": "Blockers",
+        "tunetype": "Reel",
+        "next_in_set": [],
+        "source_code": "TC"
+    },
+
+    "bucks_of_oranmore": {
+        "name": "Bucks of Oranmore",
+        "tunetype": "Reel",
+        "next_in_set": [],
+        "source_code": "TC"
+    },
+
+    "castle_kelly": {
+        "name": "Castle Kelly",
+        "tunetype": "Reel",
+        "next_in_set": [],
+        "source_code": "TC"
+    },
+
+    "chattering_magpie": {
+        "name": "Chattering Magpie",
+        "tunetype": "Reel",
+        "next_in_set": [],
+        "source_code": "TC"
+    },
+
+    "corney_is_coming": {
+        "name": "Corney is Coming",
+        "tunetype": "Reel",
+        "next_in_set": ["Lisdoonvarnam Reel"],
+        "source_code": "TC"
+    },
+
+    "colliers": {
+        "name": "Collier's",
+        "tunetype": "Reel",
+        "next_in_set": ["Blockers"],
+        "source_code": "TC"
+    },
+
+    "new_copperplate": {
+        "name": "New Copperplate",
+        "tunetype": "Reel",
+        "next_in_set": [],
+        "source_code": "TC"
+    },
+
+    "old_copperplate": {
+        "name": "Old Copperplate",
+        "tunetype": "Reel",
+        "next_in_set": ["New Copperplate"],
+        "source_code": "TC"
+    },
+
+    "steampacket": {
+        "name": "Steampacket",
+        "tunetype": "Reel",
+        "next_in_set": [],
+        "source_code": "TC"
+    },
+
+    "dairy_maid": {
+        "name": "Dairy Maid",
+        "tunetype": "Reel",
+        "next_in_set": ["Steampacket"],
+        "source_code": "TC"
+    },
+
+    "duke_leinsters_wife": {
+        "name": "Duke of Leinster's Wife",
+        "tunetype": "Reel",
+        "next_in_set": [],
+        "source_code": "TC"
+    },
+
+    "farewell_to_connacht": {
+        "name": "Farewell to Connacht",
+        "tunetype": "Reel",
+        "next_in_set": ["Old Toss the Feathers"],
+        "source_code": "TC"
+    },
+
+    "five_mile_chase": {
+        "name": "Five Mile Chase",
+        "tunetype": "Reel",
+        "next_in_set": [],
+        "source_code": "TC"
+    },
+
+    "flogging_reel": {
+        "name": "Flogging Reel",
+        "tunetype": "Reel",
+        "next_in_set": [],
+        "source_code": "TC"
+    },
+
+    "fred_finn": {
+        "name": "Fred Finn's",
+        "tunetype": "Reel",
+        "next_in_set": ["Galway Rambler"],
+        "source_code": "TC"
+    },
+
+    "galway_rambler": {
+        "name": "Galway Rambler",
+        "tunetype": "Reel",
+        "next_in_set": ["Duke of Leinster's Wife"],
+        "source_code": "TC"
+    },
+    
+    "green_fields_of_rossbeigh": {
+        "name": "Greenfields of Rossbeigh",
+        "tunetype": "Reel",
+        "next_in_set": [],
+        "source_code": "TC"
+    },
+
+    "humours_of_ballyconnell": {
+        "name": "Humours of Ballyconnell",
+        "tunetype": "Reel",
+        "next_in_set": [],
+        "source_code": "TC"
+    },
+
+    "jennys_wedding": {
+        "name": "Jenny's Wedding",
+        "tunetype": "Reel",
+        "next_in_set": [],
+        "source_code": "TC"
+    },
+    
+    "jolly_tinker": {
+        "name": "Jolly Tinker",
+        "tunetype": "Reel",
+        "next_in_set": [],
+        "source_code": "TC"
+    },
+    
+    "killarney_boys_of_pleasure": {
+        "name": "Killarney Boys of Pleasure",
+        "tunetype": "Reel",
+        "next_in_set": [],
+        "source_code": "TC"
+    },
+
+    "jug_of_punch": {
+        "name": "Jug of Punch",
+        "tunetype": "Reel",
+        "next_in_set": ["Sergeant Early's Dream"],
+        "source_code": "TC"
+    },
+
+    "sergeant_earlys": {
+        "name": "Sergeant Early's Dream",
+        "tunetype": "Reel",
+        "next_in_set": ["Broken Pledge", "Sporting Nell"],
+        "source_code": "TC"
+    },
+
+    "lady_on_island": {
+        "name": "Lady on the Island",
+        "tunetype": "Reel",
+        "next_in_set": [],
+        "source_code": "TC"
+    },
+    
+    "lisdoonvarna_reel": {
+        "name": "Lisdoonvarna Reel",
+        "tunetype": "Reel",
+        "next_in_set": [],
+        "source_code": "TC"
+    },
+
+    "lucky_in_love": {
+        "name": "Lucky in Love",
+        "tunetype": "Reel",
+        "next_in_set": [],
+        "source_code": "TC"
+    },
+    
+    "mcgreevys": {
+        "name": "McGreevy's",
+        "tunetype": "Reel",
+        "next_in_set": ["Sporting Nell"],
+        "source_code": "TC"
+    },
+
+    "morning_star": {
+        "name": "Morning Star",
+        "tunetype": "Reel",
+        "next_in_set": [],
+        "source_code": "TC"
+    },
+
+    "mullingar_races": {
+        "name": "Mullingar Races",
+        "tunetype": "Reel",
+        "next_in_set": ["Greenfields of Rossbeigh"],
+        "source_code": "TC"
+    },
+
+    "oconnells_trip": {
+        "name": "O'Connell's Trip to Parliament",
+        "tunetype": "Reel",
+        "next_in_set": ["Castle Kelly"],
+        "source_code": "TC"
+    },
+    
+    "old_bush": {
+        "name": "Old Bush",
+        "tunetype": "Reel",
+        "next_in_set": ["Sporting Nell"],
+        "source_code": "TC"
+    },
+
+    "old_toss_the_feathers": {
+        "name": "Old Toss the Feathers",
+        "tunetype": "Reel",
+        "next_in_set": [],
+        "source_code": "TC"
+    },
+
+    "otters_holt": {
+        "name": "Otter's Holt",
+        "tunetype": "Reel",
+        "next_in_set": [],
+        "source_code": "TC"
+    },
+
+    "pretty_girls_mayo": {
+        "name": "Pretty Girls of Mayo",
+        "tunetype": "Reel",
+        "next_in_set": [],
+        "source_code": "TC"
+    },
+
+    "rakish_paddy": {
+        "name": "Rakish Paddy",
+        "tunetype": "Reel",
+        "next_in_set": ["Fred Finn's"],
+        "source_code": "TC"
+    },
+
+    "roaring_mary": {
+        "name": "Roaring Mary",
+        "tunetype": "Reel",
+        "next_in_set": [],
+        "source_code": "TC"
+    },
+
+    "sailor_on_the_rock": {
+        "name": "Sailor on the Rock",
+        "tunetype": "Reel",
+        "next_in_set": [],
+        "source_code": "TC"
+    },
+
+    "scartaglen": {
+        "name": "Scartaglen",
+        "tunetype": "Reel",
+        "next_in_set": [],
+        "source_code": "TC"
+    },
+
+    "silver_spear": {
+        "name": "Silver Spear",
+        "tunetype": "Reel",
+        "next_in_set": [],
+        "source_code": "TC"
+    },
+
+    "sporting_paddy": {
+        "name": "Sporting Paddy",
+        "tunetype": "Reel",
+        "next_in_set": [],
+        "source_code": "TC"
+    },
+
+    "broken_pledge": {
+        "name": "Broken Pledge",
+        "tunetype": "Reel",
+        "next_in_set": [],
+        "source_code": "AL"
+    },
+
+    "sporting_nell": {
+        "name": "Sporting Nell",
+        "tunetype": "Reel",
+        "next_in_set": [],
+        "source_code": "TC"
+    },
+
+    "big_pat": {
+        "name": "Big Pat's",
+        "tunetype": "Reel",
+        "next_in_set": [],
+        "source_code": "TC"
+    },
+
+    "abbey": {
+        "name": "Abbey Reel",
+        "tunetype": "Reel",
+        "next_in_set": [],
+        "source_code": "TC"
+    },
+
+    "gravel walks": {
+        "name": "Gravel Walks",
+        "tunetype": "Reel",
+        "next_in_set": [],
+        "source_code": "TC"
+    },
+
+    "humours lissadell": {
+        "name": "Humours of Lissadell",
+        "tunetype": "Reel",
+        "next_in_set": ["Killarney Boys of Pleasure"],
+        "source_code": "TC"
+    },
+
+    "johnny cronins": {
+        "name": "Johnny Cronin's",
+        "tunetype": "Reel",
+        "next_in_set": [],
+        "source_code": "TC"
+    },
+
+    "old blackthorn stick": {
+        "name": "Old Blackthorn Stick",
+        "tunetype": "Reel",
+        "next_in_set": ["Come West Along the Road"],
+        "source_code": "TC"
+    },
+
+    "come west along the road": {
+        "name": "Come West Along the Road",
+        "tunetype": "Reel",
+        "next_in_set": [],
+        "source_code": "TC"
+    },
+
+    "lady on the island": {
+        "name": "Lady on the Island",
+        "tunetype": "Reel",
+        "next_in_set": ["Morning Star"],
+        "source_code": "TC"
+    }
+}
+
+
+
+
+
+
+
+
